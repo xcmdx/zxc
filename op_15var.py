@@ -8,6 +8,9 @@ k = input(TEXT_INPUT)
 
 
 def is_continue(k):
+    """
+    проверяет является ли строка числом
+    """
     if k == '':
         return False
     try:
