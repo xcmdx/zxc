@@ -15,6 +15,9 @@ def is_continue(k):
     except ValueError:
         print("неправильно введено число, повторите попытку")
         return True
+    if (k % 17) != 0:
+        print('sdfedgr')
+        return True
     tapper(k)
     return True
 
@@ -34,6 +37,16 @@ def tapper(k):
 
 while is_continue(k):
     k = input(TEXT_INPUT)
+
+
+
+
+
+
+
+
+
+
 
 
 

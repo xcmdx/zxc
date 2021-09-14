@@ -11,7 +11,7 @@ def is_continue(k):
     """
     проверяет является ли строка числом
     """
-    if k == '':
+    if not k:
         return False
     try:
         k = int(k)
