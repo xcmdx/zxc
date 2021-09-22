@@ -1,9 +1,9 @@
 blockdiag {
 orientation = portrait
-A [label = 'f(n)', shape = flowchart.terminator];
+A [label = 'fib(n)', shape = flowchart.terminator];
 B [label = 'n > 2', shape = flowchart.condition];
-C [label = 'f(n - 1) + f(n - 2)',shape = box];
-D [label = 'n', shape = box];
+C [label = 'num = fib(n - 1) + fib(n - 2)',shape = box];
+D [label = 'nun', shape = flowchart.input];
 E [label = 'конец', shape = flowchart.terminator];
 A -> B ;
 B -> C [label = 'Да'];
